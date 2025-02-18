@@ -55,7 +55,7 @@ h1:hover .we-dogs
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 18.75rem;
+    width: 20rem;
     justify-content: space-between;
     margin-right: 1.25rem;
 }
@@ -72,7 +72,7 @@ h1:hover .we-dogs
     border-bottom: 2px solid black;
 }
 
-#signup-btn
+#signup
 {
     background-color: #7ED32166;
     color: #1C4701;
@@ -83,10 +83,16 @@ h1:hover .we-dogs
     border: none;
     border-radius: 0.625rem;
     cursor: pointer;
-    transition: transform 0.4s;
+    transition: all 0.5s;
 }
 
-#signup-btn:hover
+#signup:hover
 {
-    transform: scale(1.03);
+    transform: scale(1.05);
+}
+
+#blog
+{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
