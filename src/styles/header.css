@@ -27,6 +27,28 @@ h1
     font-size: 3rem;
 }
 
+#title
+{
+    text-decoration: none;
+    color: black;
+}
+
+h1:hover #love
+{
+    color: black;
+}
+
+h1:hover .we-dogs
+{
+    color: #7ED321;
+}
+
+#love, .we-dogs
+{
+    transition: color 0.5s;
+}
+
+
 /* *************** LINKS *************** */
 #links
 {
@@ -45,6 +67,11 @@ h1
     font-weight: 700;
 }
 
+#about:hover, #blog:hover
+{
+    border-bottom: 2px solid black;
+}
+
 #signup-btn
 {
     background-color: #7ED32166;
@@ -56,4 +83,10 @@ h1
     border: none;
     border-radius: 0.625rem;
     cursor: pointer;
+    transition: transform 0.4s;
+}
+
+#signup-btn:hover
+{
+    transform: scale(1.03);
 }
