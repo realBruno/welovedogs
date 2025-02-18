@@ -28,15 +28,17 @@ main
     color: #1C4701;
     font-weight: 700;
     font-size: 1.125rem;
-}
-
-#signup-btn-2
-{
     background-color: #7ED321;
     border: none;
     padding: 1rem 2.5rem;
     border-radius: 0.625rem;
-    width: 60%;
+    transition: all 0.5s;
+}
+
+#signup-2:hover
+{
+    transform: scale(1.03);
+    box-shadow: 2px 2px 3px rgb(117, 117, 117);
 }
 
 #text-and-button
