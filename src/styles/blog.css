@@ -1,0 +1,40 @@
+body
+{
+    font-family: "Rubik", serif;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog-title
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 48px;
+}
+
+#blog-first-block, #blog-second-block
+{
+    display: flex;
+}
+
+.blog-paragraph
+{
+    width: 50rem;
+}
+
+.blog-secondary-title
+{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#blog-second-block
+{
+    margin-top: 3rem;
+}
