@@ -1,0 +1,40 @@
+body
+{
+    font-family: "Rubik", serif;
+}
+
+main
+{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *************** MAIN DIV *************** */
+
+#about-text
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#about-title
+{
+    font-size: 3rem;
+    margin-bottom: 0.625rem;
+}
+
+#about-paragraph
+{
+    width: 40.625rem;
+}
+
+#about-image
+{
+    width: 25rem;
+    margin-top: 0.625rem;
+}
