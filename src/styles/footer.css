@@ -1,0 +1,14 @@
+footer
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#link-footer
+{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
