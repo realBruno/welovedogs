@@ -1,11 +1,9 @@
 footer
 {
-    display: flex;
-    justify-content: center;
     text-align: center;
-    align-items: center;
-    height: 10vh;
+    padding: 0.5rem;
 }
+
 
 #link-footer
 {
