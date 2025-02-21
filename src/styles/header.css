@@ -11,7 +11,7 @@ header
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    padding: 1em;
     font-family: "Rubik", serif;
 }
 
