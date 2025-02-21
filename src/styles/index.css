@@ -1,4 +1,9 @@
 /* *************** MAIN *************** */
+*
+{
+    box-sizing: border-box;
+}
+
 body
 {
     font-family: "Rubik";
@@ -18,7 +23,7 @@ main
 /* *************** TEXT AND BUTTON *************** */
 #greeting-message
 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     padding: 0;
     margin: 0;
@@ -52,11 +57,10 @@ main
 }
 
 /* *************** IMAGE *************** */
-img
+.woman-dog
 {
     animation: move 1.5s infinite ease-in-out alternate;
     background: white;
-
 }
 
 @keyframes move
@@ -68,5 +72,35 @@ img
     to
     {
         transform: translateY(0.625rem);
+    }
+}
+
+@media (max-width: 480px)
+{
+    .woman-dog
+    {
+        width: 20rem;
+    }
+
+    main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #greeting-message
+    {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1.875rem;
+    }
+
+    #signup-2
+    {
+        padding: 0.8rem 1.3rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 }
